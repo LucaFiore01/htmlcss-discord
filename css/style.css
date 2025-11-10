@@ -25,6 +25,7 @@
     padding-bottom: 30px;
     padding-top: 30px;
     display: flex;
+    gap: 30px;
 }
 
 .section1 {
@@ -46,6 +47,9 @@
     width: 100%
 }
 
+.section3 {
+    
+}
 
 .section4 {
     background-color: lightgray;
@@ -54,6 +58,9 @@
 
 .section6 {
     background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    padding: 130px;
 }
 
 .bg {
@@ -70,16 +77,21 @@
 
 .w-70 {
     background-color: aqua;
-    height: 300px;
+    height: 400px;
     width: 70%;
-    border: 1px dashed black
+    border: 1px dashed black;
+    display: flex;
+    
+    
 }
 
 .w-30 {
     background-color: orchid;
-    height: 300px;
-    width: 30%;
-    border: 1px dashed black
+    height: 400px;
+    width: 40%;
+    border: 1px dashed black;    
+    gap: 5px;
+    
 }
 
 .w-100 {
@@ -147,8 +159,61 @@
 
 .p {
     background-color: pink;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+    gap: 25px;
+
 }
 
-.jumbotron {
+.title {
+    padding-bottom: 20px;
+}
+
+ .top-section {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .bottom-section{
+  display: flex;
+    flex-direction: column;
+    align-items: anchor-center;
+ }
+  
+.download-button {
+       background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.bottom-txt {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+font-size: larger;
+    padding: 10px;
+}
+
+.main-title {
+    width: 140%;
     
+}
+
+.bottom-title {
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    gap: 0px;
 }
