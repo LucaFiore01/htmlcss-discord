@@ -5,21 +5,25 @@
 }
 
 
+
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .header {
     background-color: lightblue;
     display: flex;
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
-    height: 100%;
+
+   margin: 0px 225px;
     padding-bottom: 30px;
     padding-top: 30px;
 }
 
 .container-d {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
     height: 100%;
     padding-bottom: 30px;
@@ -29,13 +33,13 @@
 }
 
 .section1 {
-    background-color: lightblue;
+    background-color: dodgerblue;
     width: 100%;
     height: 50px;
 }
 
 .bg-sandy-brown {
-    background-color: sandybrown;
+    background-color: dodgerblue;
     margin-top: -21px;
     padding-top: 15px;
     padding-top: 7px;
@@ -47,20 +51,12 @@
     width: 100%
 }
 
-.section3 {
-    
-}
-
-.section4 {
-    background-color: lightgray;
-
-}
 
 .section6 {
-    background-color: lightgrey;
+
     display: flex;
     justify-content: center;
-    padding: 130px;
+    padding: 150px;
 }
 
 .bg {
@@ -70,47 +66,47 @@
 }
 
 .bg-pink {
-    background-color: orchid;
-    height: 300px;
-    padding: 180px
+
+    height: 400px;
+
 }
 
 .w-70 {
-    background-color: aqua;
+
     height: 400px;
     width: 70%;
-    border: 1px dashed black;
+
     display: flex;
-    
-    
+
+
 }
 
 .w-30 {
-    background-color: orchid;
+
     height: 400px;
     width: 40%;
-    border: 1px dashed black;    
+
     gap: 5px;
-    
+
 }
 
 .w-100 {
     height: 600px;
     width: 100%;
-    background-color: green;
+
 }
 
 .section7 {
-    background-color: black;
+    background-color: rgba(31, 29, 29, 0.932);
+
 }
 
 .section8 {
-    background-color: black;
+    background-color: rgba(31, 29, 29, 0.932);
 }
 
 .bg-aquamarine {
     width: 100%;
-    background-color: aquamarine;
     height: 40px;
 }
 
@@ -119,11 +115,6 @@
     display: flex;
     height: 30px;
     padding-top: 10px;
-}
-
-.button {
-    background-color: salmon;
-    border: 1px dashed black
 }
 
 .item-container {
@@ -145,20 +136,8 @@
     display: flex;
 }
 
-.s {
-    background-color: salmon;
-}
-
-.dc {
-    background-color: darkcyan;
-}
-
-.db {
-    background-color: dodgerblue;
-}
-
 .p {
-    background-color: pink;
+
     font-size: large;
     display: flex;
     flex-direction: column;
@@ -172,20 +151,20 @@
     padding-bottom: 20px;
 }
 
- .top-section {
-        display: flex;
+.top-section {
+    display: flex;
     flex-direction: column;
     align-items: center;
- }
+}
 
- .bottom-section{
-  display: flex;
+.bottom-section {
+    display: flex;
     flex-direction: column;
     align-items: anchor-center;
- }
-  
+}
+
 .download-button {
-       background-color: dodgerblue;
+    background-color: cornflowerblue;
     color: white;
     display: flex;
     justify-content: center;
@@ -197,16 +176,17 @@
 .bottom-txt {
     display: flex;
     justify-content: center;
+    background-image: url(../img/stars.svg);
 }
 
 .paragraph {
-font-size: larger;
+    font-size: larger;
     padding: 10px;
 }
 
 .main-title {
     width: 140%;
-    
+
 }
 
 .bottom-title {
@@ -216,4 +196,92 @@ font-size: larger;
 
 .top {
     gap: 0px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    color: white;
+}
+
+.item-title {
+    font-size: xx-large;
+    color: cornflowerblue;
+    gap: 30px;
+}
+
+.first-item {
+    color: cornflowerblue;
+    font-weight: 600;
+}
+
+.item {
+    font-weight: 400;
+}
+
+.jumbo {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-footer {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 20px;
+}
+
+.testo-jumbo {
+    display: flex;
+    align-items: anchor-center;
+    flex-direction: column;
+}
+
+.header-buttons {
+    gap: 25px;
+    display: flex;
+}
+
+.jumbo-txt {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 83px;
+    font-size: larger
+}
+
+.download-button-b {
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 34px;
+}
+
+.download-button-a {
+    padding: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 34px;
+    
+}
+
+.paragrafo-header {
+    justify-content: center;
+    margin: 0px 30px;
+}
+
+.item-link {
+    color: white;
+    padding-right: 20px;
+}
+
+.logo-access {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px;
 }
